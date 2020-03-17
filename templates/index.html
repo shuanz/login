@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+  <body>
+    {% extends "./base.html" %}
+    {% block content %}
+      <h2>Página Inicial</h2>
+      <p><a href={{ url_for('user.register') }}>{%trans%}Registro{%endtrans%}</a></p>
+      <p><a href={{ url_for('user.login') }}>{%trans%}Log in{%endtrans%}</a></p>
+      <p><a href={{ url_for('home_page') }}>{%trans%}Página Inicial{%endtrans%}</a></p>
+      <p><a href={{ url_for('member_page') }}>{%trans%}Member Page{%endtrans%}</a></p>
+      <p><a href={{ url_for('home_page') }}>{%trans%}Admin Page{%endtrans%}</a></p>
+      <p><a href={{ url_for('user.logout') }}>{%trans%}Sign out{%endtrans%}</a></p>
+    {% endblock %}
+  </body>
+
+</html>
