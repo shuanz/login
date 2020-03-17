@@ -1,7 +1,3 @@
-#Sisop
-##Authentication & Authorization
-###Instructions
-
 1. Requirements::
     ~~~~
    Python 3.3+
