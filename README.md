@@ -52,3 +52,4 @@
     export FLASK_APP=__init__.py
     run flask
     ~~~~
+teste commit semântico
